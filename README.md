@@ -1,8 +1,9 @@
-# COMBISTATO 
+# COMBISTATO :smiley:
 
 Es un circuito electrónico basado en [arduino](https://es.wikipedia.org/wiki/Arduino) para que haga la función de termostato doble accion para controlar frio / calor.
 Esta diseñado con un arduino nano con atmega 328.
 Tiene la funcion de guardar los valores de ajustes en la memoria eeprom para que sean legibles luego de una desconexión de la alimentación.
+Posee la posbilidad de habilitar o deshabilitar el regitro en consola serial.
 ## La idea:
 La idea es poder realizar con poco dinero, una circuito util, de gran versatilidad y bastante fiable.
 Se usara sensor digital de tempertatura [ds18b20](https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf), pero puede usarse cualquiera.
@@ -14,3 +15,8 @@ En la salida tendrá un modulo de relé doble, con capacidad de 10A. En su idea 
 * pequeña fuente de alimentación 
 * resistores varios
 * display [lcd-16x02](https://www.engineersgarage.com/electronic-components/16x2-lcd-module-datasheet)
+
+#### Para hacer:
+
+- Conectar un _buzzer_ y agregar el codigo que falta para las alarmas.
+- Desarrollar el codigo para poder configurarlo como dos termostatos separados.
