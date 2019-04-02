@@ -1,4 +1,4 @@
-update=mar 02 abr 2019 10:55:45 -03
+update=mar 02 abr 2019 11:31:53 -03
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,4 +58,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/home/faco/sketchbook/combistato/kicad_ArduinoNano/libraries/arduino_nano
+LibName30=lcd1602
+LibName31=/home/faco/sketchbook/combistato/kicad_ArduinoNano/libraries/arduino_nano
