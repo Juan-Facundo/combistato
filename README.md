@@ -1,4 +1,4 @@
-# combistato
+# COMBISTATO 
 
 Es un circuito electrónico basado en arduino para que haga la función de termostato doble accion para controlar frio / calor.
 Esta diseñado con un arduino nano con atmega 328.
