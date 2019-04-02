@@ -1,7 +1,9 @@
 # COMBISTATO :smiley:
 
 Es un circuito electrónico basado en [arduino](https://es.wikipedia.org/wiki/Arduino) para que haga la función de termostato doble accion para controlar frio / calor.
+
 Esta diseñado con un arduino nano con atmega 328.
+
 Su funcionamiento básico es de comandar dos salidas que manejen equipos de frio y calor para mantener la temperatura de lo que se desea controlar. Para ello se puede ajustar:
 * Punto de ajuste de trabajo (set point)
 * Ajuste de la ventana de accion (histeresis)
