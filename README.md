@@ -13,3 +13,4 @@ En la salida tendrá un modulo de relé doble, con capacidad de 10A. En su idea 
 * teclado matricial 4x4
 * pequeña fuente de alimentación 
 * resistores varios
+* display lcd 16x04
