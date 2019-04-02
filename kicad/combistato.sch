@@ -1,0 +1,184 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:arduino_nano
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Combistato con Arduino nano"
+Date "2019-04-02"
+Rev "0"
+Comp "Sagitario"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Arduino_Nano A?
+U 1 1 5CA369F0
+P 6000 2900
+F 0 "A?" H 6000 2900 60  0000 C CNN
+F 1 "Arduino_Nano" H 6000 3050 60  0000 C CNN
+F 2 "" H 6000 2900 60  0000 C CNN
+F 3 "" H 6000 2900 60  0000 C CNN
+	1    6000 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5CA36B6B
+P 8250 2400
+F 0 "R1" V 8050 2400 50  0000 C CNN
+F 1 "4k7" V 8150 2400 50  0000 C CNN
+F 2 "" V 8180 2400 50  0000 C CNN
+F 3 "" H 8250 2400 50  0000 C CNN
+	1    8250 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5CA36BBC
+P 7300 1450
+F 0 "R?" V 7380 1450 50  0000 C CNN
+F 1 "R" V 7300 1450 50  0000 C CNN
+F 2 "" V 7230 1450 50  0000 C CNN
+F 3 "" H 7300 1450 50  0000 C CNN
+	1    7300 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 con-1
+U 1 1 5CA36C4D
+P 9000 2700
+F 0 "con-1" H 9000 2400 50  0000 C CNN
+F 1 "ds18b20 bus" V 9100 2700 50  0000 C CNN
+F 2 "" H 9000 2700 50  0000 C CNN
+F 3 "" H 9000 2700 50  0000 C CNN
+	1    9000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5CA36ED6
+P 8250 2100
+F 0 "#PWR?" H 8250 1950 50  0001 C CNN
+F 1 "+5V" H 8250 2240 50  0000 C CNN
+F 2 "" H 8250 2100 50  0000 C CNN
+F 3 "" H 8250 2100 50  0000 C CNN
+	1    8250 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5CA36FDE
+P 8600 2900
+F 0 "#PWR?" H 8600 2650 50  0001 C CNN
+F 1 "GND" H 8600 2750 50  0000 C CNN
+F 2 "" H 8600 2900 50  0000 C CNN
+F 3 "" H 8600 2900 50  0000 C CNN
+	1    8600 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P?
+U 1 1 5CA371BE
+P 9000 3650
+F 0 "P?" H 9000 3900 50  0000 C CNN
+F 1 "con-2 Mod Relé" V 9100 3650 50  0000 C CNN
+F 2 "" H 9000 3650 50  0000 C CNN
+F 3 "" H 9000 3650 50  0000 C CNN
+	1    9000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5CA3755A
+P 8600 4000
+F 0 "#PWR?" H 8600 3750 50  0001 C CNN
+F 1 "GND" H 8600 3850 50  0000 C CNN
+F 2 "" H 8600 4000 50  0000 C CNN
+F 3 "" H 8600 4000 50  0000 C CNN
+	1    8600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5CA37646
+P 8350 3450
+F 0 "#PWR?" H 8350 3300 50  0001 C CNN
+F 1 "+5V" H 8350 3590 50  0000 C CNN
+F 2 "" H 8350 3450 50  0000 C CNN
+F 3 "" H 8350 3450 50  0000 C CNN
+	1    8350 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 3050 8250 3050
+Wire Wire Line
+	8250 3050 8250 2550
+Wire Wire Line
+	8800 2700 8250 2700
+Connection ~ 8250 2700
+Wire Wire Line
+	8800 2600 8600 2600
+Wire Wire Line
+	8600 2600 8600 2250
+Wire Wire Line
+	8600 2250 8250 2250
+Wire Wire Line
+	8250 2250 8250 2100
+Wire Wire Line
+	8800 2800 8600 2800
+Wire Wire Line
+	8600 2800 8600 2900
+Wire Wire Line
+	8350 3450 8350 3500
+Wire Wire Line
+	8350 3500 8800 3500
+Wire Wire Line
+	8600 4000 8600 3800
+Wire Wire Line
+	8600 3800 8800 3800
+Wire Wire Line
+	6700 2650 7950 2650
+Wire Wire Line
+	7950 2650 7950 3600
+Wire Wire Line
+	7950 3600 8800 3600
+Wire Wire Line
+	6700 2750 7850 2750
+Wire Wire Line
+	7850 2750 7850 3700
+Wire Wire Line
+	7850 3700 8800 3700
+$EndSCHEMATC
