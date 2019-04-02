@@ -3,11 +3,11 @@
 Es un circuito electrónico basado en [arduino](https://es.wikipedia.org/wiki/Arduino) para que haga la función de termostato doble accion para controlar frio / calor.
 Esta diseñado con un arduino nano con atmega 328.
 Su funcionamiento básico es de comandar dos salidas que manejen equipos de frio y calor para mantener la temperatura de lo que se desea controlar. Para ello se puede ajustar:
-
 * Punto de ajuste de trabajo (set point)
 * Ajuste de la ventana de accion (histeresis)
 * Retardo de reconeccion para frio y calor separados (algunos equipos lo requieren)
 * Error: ajuste de calibracion para eliminar el posible error de la medicion.
+
 La presición del aparato depende mayormente del sensensor. En este caso, el fabricante del 18b20 dice que puede tener un error de 0,5 grados centígrados. Otros sensores, se verá.
 Tiene la funcion de guardar los valores de ajustes en la memoria eeprom para que sean legibles luego de una desconexión de la alimentación.
 Posee la posbilidad de habilitar o deshabilitar el regitro en consola serial.
