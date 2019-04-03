@@ -1,6 +1,10 @@
-update=mié 03 abr 2019 01:26:02 -03
+update=22/05/2015 07:44:53
 version=1
 last_client=kicad
+[general]
+version=1
+RootSch=
+BoardNm=
 [pcbnew]
 version=1
 LastNetListRead=
@@ -23,18 +27,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -68,6 +60,3 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=lcd1602
-LibName31=/home/faco/sketchbook/combistato/kicad_ArduinoNano/libraries/arduino_nano
-LibName32=/home/faco/Documentos/librerias-kicad/Jumper/Jumper
